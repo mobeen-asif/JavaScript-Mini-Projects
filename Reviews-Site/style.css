@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: hsl(210, 36%, 96%);
-    color: hsl(209, 61%, 16%);
+    background: #f1f5f8;
+    color: #102a42;
     line-height: 1.5;
     font-size: 0.875rem;
 }
@@ -33,7 +33,7 @@ h4 {
 
 p {
     margin-bottom: 1.25rem;
-    color: hsl(210, 22%, 49%);
+    color: #617d98;
 }
 
 .section {
@@ -54,7 +54,7 @@ main {
 .underline {
     height: 0.25rem;
     width: 5rem;
-    background: hsl(205, 78%, 60%);
+    background: #49a6e9;
     margin-left: auto;
     margin-right: auto;
 }
@@ -108,7 +108,7 @@ main {
     place-items: center;
     border-radius: 50%;
     transform: translateY(25%);
-    background: hsl(205, 78%, 60%);
+    background: #49a6e9;
     color: #fff;
 }
 
@@ -116,7 +116,7 @@ main {
     content: "";
     width: 100%;
     height: 100%;
-    background: hsl(205, 78%, 60%);
+    background: #49a6e9;
     position: absolute;
     top: -0.25rem;
     right: -0.5rem;
@@ -130,7 +130,7 @@ main {
 #job {
     margin-bottom: 0.5rem;
     text-transform: uppercase;
-    color: hsl(205, 78%, 60%);
+    color: #49a6e9;
     font-size: 0.85rem;
 }
 
@@ -140,7 +140,7 @@ main {
 
 .prev-btn,
 .next-btn {
-    color: hsl(205, 90%, 76%);
+    color: #8bcbf9;
     font-size: 1.25rem;
     background: transparent;
     border-color: transparent;
@@ -151,24 +151,24 @@ main {
 
 .prev-btn:hover,
 .next-btn:hover {
-    color: hsl(205, 78%, 60%);
+    color: #49a6e9;
 }
 
 .random-btn {
     margin-top: 0.5rem;
-    background: hsl(205, 100%, 96%);
-    color: hsl(205, 78%, 60%);
+    background: #ebf7ff;
+    color: #49a6e9;
     padding: 0.25rem 0.5rem;
     text-transform: capitalize;
     border-radius: 0.25rem;
     transition: all 0.3s linear;
-    border-color: hsl(205, 78%, 60%);
+    border-color: #49a6e9;
     cursor: pointer;
 }
 
 .random-btn:hover {
-    background: hsl(205, 78%, 60%);
-    color: hsl(205, 86%, 17%);
+    background: #49a6e9;
+    color: #063251;
 }
 
 @media screen and (min-width: 800px) {
