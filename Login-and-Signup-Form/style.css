@@ -28,11 +28,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: height 0.2s ease;
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
 }
 
 .wrapper .login {
-    transition: transform 0.18s ease;
+    transition: transform 0.18s ease-in-out;
     transform: translateX(0);
 }
 
@@ -43,7 +44,13 @@ body {
 
 .wrapper .signup {
     position: absolute;
+    transition: none;
     transform: translateX(400px);
+}
+
+.wrapper.active .signup {
+    transition: transform 0.18s ease-in-out;
+    transform: translateX(0);
 }
 
 .form-box {
